@@ -12,8 +12,12 @@ public class StudentInfo {
 		System.out.println("학번 : ");
 		String code = sc.nextLine();
 		
+		System.out.print("주소 : ");
+		String address = sc.nextLine();
+		
 		System.out.println("날짜 : " + today);
 		System.out.println("이름:  " + name);
 		System.out.println("학번 : " + code);
+		System.out.println("주소 : " + address);
 	}
 }
